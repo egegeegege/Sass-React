@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; // Kartlar arasında boşluk bırakır
+    padding: 20px;
+}
+
+.card {
+    background-color: aliceblue !important;
+    border-radius: 10px;
+    display: flex !important;
+    padding: 10px;
+    flex-direction: row;
+    margin: 10px; // Kartlar arasında boşluk bırakır
+    p {
+        color: black !important;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-style: normal !important;
+        font-variant: unset;
+    }
+}
